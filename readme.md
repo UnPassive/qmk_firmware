@@ -2,8 +2,8 @@
 
 ## Additions in this fork
 
-This fork adds the "unpassive" keymap to the gmmk pro keyboard: qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/unpassive
-It also adds "unpassive" to users: qmp_firmware/users/unpassive
+This fork adds the "unpassive" keymap to the gmmk pro keyboard: qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/unpassive  
+It also adds "unpassive" to users: qmp_firmware/users/unpassive  
 Both of these folders are forks of gourdo1's work
 
 ## Flashing firmware:
