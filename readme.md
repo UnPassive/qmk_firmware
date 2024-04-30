@@ -2,16 +2,16 @@
 
 ## Additions in this fork
 
-This fork adds the "unpassive" keymap to the gmmk pro keyboard: qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/unpassive  
-It also adds "unpassive" to users: qmp_firmware/users/unpassive  
+This fork adds the "unpassive" keymap to the gmmk pro keyboard: qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/unpassive
+It also adds "unpassive" to users: qmp_firmware/users/unpassive
 Both of these folders are forks of gourdo1's work
 
 ## Flashing firmware:
 
-A tutorial on QMK with installation instructions and more can be found here: https://docs.qmk.fm/  
-Install QMK via the tutorial and run the "qmk setup" command  
-To set keyboard to gmmk pro: "qmk config user.keyboard=gmmk/pro/rev1/ansi"  
-To compile firmware with 4 cpu threads: "qmk compile -km unpassive -j 4"  
+A tutorial on QMK with installation instructions and more can be found here: https://docs.qmk.fm/
+Install QMK via the tutorial and run the "qmk setup" command
+To set keyboard to gmmk pro: "qmk config user.keyboard=gmmk/pro/rev1/ansi"
+To compile firmware with 4 cpu threads: "qmk compile -km unpassive -j 4"
 To flash:
 - Put the keyboard in bootloader mode (Unplug keyboard, then hold down Fn + \ while plugging keyboard in)
   - If you run the flash command below before putting keyboard in bootloader mode, the command will wait until it detects a keyboard in bootloader mode
